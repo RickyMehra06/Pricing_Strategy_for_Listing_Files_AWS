@@ -40,7 +40,7 @@ def fillz_api():
     except Exception as e:
         raise CustomException(e, sys)
 
-    return render_template('home.html', output_data = "USD, CAD & AUS files are created!!")        
+    return render_template('home.html', output_data = "USD, CAD & AUS listing files are created!!")        
         
 
 if __name__=="__main__":
