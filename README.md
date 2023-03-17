@@ -1,5 +1,7 @@
 # Python Project - Amazon Listing Files:
 
+![](https://github.com/RickyMehra06/Amazon_Listing_Files_AWS/blob/main/media/AmazonListingFiles.gif)
+
 
 # Problem Statement:
 Amazon US facilitates Indian sellers to sell their products in the US marketplace through their seller-fulfilled channels using a program called Amazon Global Selling. An Amazon seller in India is selling his books at Amazon's US marketplace.
