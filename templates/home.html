@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>jQuery Show Different HTML Form on Radio Button Selection</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+	<!-- BootStrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+	integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+	<!-- css -->
+	<link rel="stylesheet" href="static/css/styles.css">
+</head>
+
+<body style="background-color:#e4e5e6";>
+	<div class="login">
+	   	<h1 style="background-color:#009FFD" >
+			<strong>Amazon Listing files</strong>
+		</h1>
+	 	<style> h1 {text-align: center; } </style> <br><br>
+
+         
+        <!-- Input excel files path  -->
+        <table>      
+          <form action="{{ url_for('fillz_api')}}"method="post">
+              <tr>
+                <td>
+                    <label style="font-weight: bold;">
+                      USD/INR rate:
+                    </label>
+                </td>
+                <td><input type="number" step="any" name="USD/INR rate" placeholder="USD/INR rate" required="required" /><br>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                    <label style="font-weight: bold;">
+                      CAD/INR rate:
+                    </label>
+                </td>
+                <td><input type="number" step="any" name="CAD/INR rate" placeholder="CAD/INR rate" required="required" /><br>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                    <label style="font-weight: bold;">
+                      AUS/INR rate:
+                    </label>
+                </td>
+                <td><input type="number" step="any" name="AUS/INR rate" placeholder="AUS/INR rate" required="required" /><br>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                    &nbsp;
+                    <!--you just need a space in a row-->
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                    <label style="font-weight: bold;">
+                      Target Profit-USA:
+                    </label>
+                </td>
+                <td><input type="number" step="any" name="Target Profit-USA" placeholder="Target Profit-USA" required="required" /><br>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                    <label style="font-weight: bold;">
+                        Target Profit-CAD:
+                    </label>
+                </td>
+                <td><input type="number" step="any" name="Target Profit-CAD" placeholder="Target Profit-CAD" required="required" /><br>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                    <label style="font-weight: bold;">
+                        Target Profit-AUS:
+                    </label>
+                </td>
+                <td><input type="number" step="any" name="Target Profit-AUS" placeholder="Target Profit-AUS" required="required" /><br>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                    &nbsp;
+                    <!--you just need a space in a row-->
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                    <label style="font-weight: bold;">
+                      Minimum Target Profit-USA:
+                    </label>
+                </td>
+                <td><input type="number" step="any" name="Minimum Target Profit-USA" placeholder="Minimum Target Profit-US" required="required" /><br>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                    <label style="font-weight: bold;">
+                        Minimum Target Profit-CAD:
+                    </label>
+                </td>
+                <td><input type="number" step="any" name="Minimum Target Profit-CAD" placeholder="Minimum Target Profit-CAD" required="required" /><br>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                    <label style="font-weight: bold;">
+                        Minimum Target Profit-AUS:
+                    </label>
+                </td>
+                <td><input type="number" step="any" name="Minimum Target Profit-AUS" placeholder="Minimum Target Profit-AUS" required="required" /><br>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                    &nbsp;
+                    <!--you just need a space in a row-->
+                </td>
+              </tr>
+
+
+        </table>
+        <br>
+
+                
+	    <button style="font-size:25px" type="submit" class="btn btn-primary btn-block btn-large"> <strong>Submit to generate files</strong></button>
+			</form>
+			<br>			
+		</div>
+
+    {{output_text}}
+    
+	<br>
+
+</body>
+</html>              

@@ -1,0 +1,14 @@
+sklearn
+pandas
+numpy
+openpyxl
+xlrd==1.2.0
+flask 
+gunicorn
+datetime
+mysql-connector-python
+pymongo
+typing
+datetime
+PyYAML
+#-e .
