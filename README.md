@@ -59,6 +59,7 @@ The seller wants to automate the whole process using Python in order to save bot
  * Will-ship-internationally: Used to ship internationally from the domestics location.
 
  ### 2. Automated Price File:
+ 
  * SKU: User defined unique number of the product required to identify whose order has been received.
  * Minimum-seller-allowed-price: Minimum price below the buy-box price.
  * Maximum-seller-allowed-price: Maximum price above the buy-box price.
