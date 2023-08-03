@@ -1,4 +1,4 @@
-# Python Project - Amazon Listing Files:
+# Python Project - Pricing Strategy for Listing Files:
 
 ![](https://github.com/RickyMehra06/Amazon_Listing_Files_AWS/blob/main/media/AmazonListingFiles.gif)
 
@@ -9,15 +9,15 @@ Amazon US facilitates Indian sellers to sell their products in the US marketplac
 The seller wants to create bulk listing excel files to be uploaded at Amazon seller portal. 
 The inventory files are received in the form of excel/csv from the publisher or distributors on daily basis.
 
-Using MS Excel it takes 40-45 minutes to preprocess each invetory file in order to create the required bulk listing file for a particular region. Along with performing the preprocessing steps, one of the major challenge to achieve the target selling price (SP) such that the seller wants a fixed amount of profit in this highly competative business environment.
+Using MS Excel it takes 40-45 minutes to preprocess each invetory file in order to create the required Pricing Strategy Listing File for a particular region. Along with performing the preprocessing steps, one of the major challenge to achieve the target selling price (SP) such that the seller wants a fixed amount of profit in this highly competative business environment.
 
-The seller has neary 75,000 as inventory records from the multiple stackholders, if the seller seeks helps from Amazon.com or its service partners to create the bulk listing files for such amount of inventory on their behalf, it will be charged nearly INR 1 for each inventory means the manager has to pay 75,000x3 = 225,000 INR for all three target countries The USA, Canada and Australia.
+The seller has neary 75,000 as inventory records from the multiple stackholders, if the seller seeks helps from Amazon.com or its service partners to create the Pricing Strategy Listing Files for such amount of inventory on their behalf, it will be charged nearly 75,000x3 = 225,000 INR for all three target countries The USA, Canada and Australia for each business day.
 
 The seller wants to automate the whole process using Python in order to save both time and money.
 
 ## Challenges and other objectives:
 
-* Using MS Excel it takes 40-45 minutes to preprocess the each invetory file in order to create the required bulk listing file for a particular region.
+* Using MS Excel it takes 40-45 minutes to preprocess the each invetory file in order to create the required Pricing Strategy Listing File for a particular region.
 * Since Amazon fee is charged on selling price, using MS excel seller cannot achieved the target selling price for the desired amount of profit.
 
 
