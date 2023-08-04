@@ -18,7 +18,7 @@ The seller wants to automate the whole process using Python in order to save bot
 ## Challenges and other objectives:
 
 * Using MS Excel it takes 40-45 minutes to process production ready Product Listing File for a particular region.
-* Since Amazon fee is charged on selling price, using MS excel the target selling price cannot be achieved for the desired amount of profit.
+* Since Amazon fee is charged on selling price, using MS excel the target selling price cannot be achieved for the desired profit.
 
 
 ## Solution Provided:
