@@ -31,7 +31,7 @@ The seller wants to automate the whole process using Python in order to save bot
 
 ### Features in Inventory file:
 
-* ISBN: Internation standard book number
+* ISBN: International standard book number
 * Name: Name of the product
 * Currency: The product can be purchased in which currency
 * Price: MRP of the product
@@ -40,7 +40,7 @@ The seller wants to automate the whole process using Python in order to save bot
 * Date: Inventory date
 
 ### Features in Master_File:
-* ISBN: Internation standard book number
+* ISBN: International standard book number
 * ASIN10: Amazon Standard Identification Number
 * Title: Name of the product
 * Weight: Weight of the product in KG
