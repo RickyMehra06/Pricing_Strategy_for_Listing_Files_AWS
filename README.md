@@ -23,7 +23,7 @@ The seller wants to automate the whole process using Python in order to save bot
 
 ## Solution Provided:
 
-* Reduced the processing time of each file from 40 minutes to 8 minutes.
+* Reduced the processing time of each file from **40 minutes to 8 minutes**.
 * Gradient descent type approach is used to achieve the target selling price for the desired amount of profit.
 * Flask API is used to take the user inputs like daily currency exchange rate, target profit, target minimum profit.
 
